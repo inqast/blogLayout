@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtalk Blog</title>
+    <link rel="stylesheet" href="index-style.css">
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">
+                <img src="images/logo.svg" alt="Youtalk Logo" width="51" height="36" class="header__logo-image">
+            </a>
+            
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">О нас</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Тарифы</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Для бизнеса</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Психологам</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Сертификат</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link header__menu-link--with-icon">
+                            Материалы
+                            <svg class="header__menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">FAQ</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="header__button">
+                Подобрать психолога
+            </button>
+            
+            <button class="header__burger" aria-label="Открыть меню">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item">
+                        <a href="index.html" class="breadcrumbs__link">Главная</a>
+                        <svg class="breadcrumbs__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <span class="breadcrumbs__current">Блог</span>
+                    </li>
+                </ul>
+            </div>
+
+            <section class="blog">
+                <h1 class="blog__title">Блог</h1>
+
+                <div class="tags">
+                    <div class="tags__item tags__item--all">
+                        <span class="tags__icon">😊</span>
+                        <span class="tags__text">Все</span>
+                    </div>
+                    <div class="tags__item">
+                        <span class="tags__text">Самооценка и самопринятие</span>
+                    </div>
+                    <div class="tags__item tags__item--active">
+                        <span class="tags__icon">🦄</span>
+                        <span class="tags__text">Self</span>
+                    </div>
+                    <div class="tags__item">
+                        <span class="tags__text">Чувства и эмоции</span>
+                    </div>
+                    <div class="tags__item">
+                        <span class="tags__text">Тревога</span>
+                    </div>
+                    <div class="tags__item">
+                        <span class="tags__text">Упражнения</span>
+                    </div>
+                    <div class="tags__item">
+                        <span class="tags__text">Психология питания</span>
+                    </div>
+                    <div class="tags__item">
+                        <span class="tags__text">Насилие</span>
+                    </div>
+                    <div class="tags__item">
+                        <span class="tags__text">Личное здоровье</span>
+                    </div>
+                </div>
+
+                <div class="featured-posts">
+                    <article class="featured-post">
+                        <div class="featured-post__image-container">
+                            <img src="images/Rectangle1.png" alt="Эмоциональное выгорание" class="featured-post__image">
+                            <div class="featured-post__tag">
+                                <span class="featured-post__tag-icon">🦄</span>
+                                <span class="featured-post__tag-text">Самооценка и самопринятие</span>
+                            </div>
+                            <div class="featured-post__tag featured-post__tag--secondary">
+                                <span class="featured-post__tag-icon">🦄</span>
+                                <span class="featured-post__tag-text">Self</span>
+                            </div>
+                        </div>
+                        <div class="featured-post__content">
+                            <h2 class="featured-post__title">
+                            Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
+                        </h2>
+                            <p class="featured-post__author">Автор: Лиза Файнтух</p>
+                            <p class="featured-post__excerpt">
+                                Изначально термин «эмоциональное профессиональной сфере и относился...
+                            </p>
+                            <time class="featured-post__date" datetime="2021-08-21">
+                                21.08.2021
+                            </time>
+                        </div>
+                    </article>
+
+                    <article class="featured-post">
+                        <div class="featured-post__image-container">
+                            <img src="images/Rectangle2.png" alt="Как не утонуть в тревоге" class="featured-post__image">
+                            <div class="featured-post__tag">
+                                <span class="featured-post__tag-icon">🦄</span>
+                                <span class="featured-post__tag-text">Self</span>
+                            </div>
+                        </div>
+                        <div class="featured-post__content">
+                            <h2 class="featured-post__title">Как не утонуть в тревоге и управлять своими страхами</h2>
+                            <p class="featured-post__author">Автор: Екатерина Бельтюкова</p>
+                            <p class="featured-post__excerpt">
+                                Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных
+                                ситуациях по-разному обходиться ...
+                            </p>
+                            <time class="featured-post__date" datetime="2021-08-11">
+                                11.08.2021
+                            </time>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="posts">
+                    <article class="post">
+                        <div class="post__image-container">
+                            <img src="images/Image1.png" alt="Эмоциональное выгорание" class="post__image">
+                            <div class="post__tag">
+                                <span class="post__tag-icon">🦄</span>
+                                <span class="post__tag-text">Self</span>
+                            </div>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
+                            </h2>
+                            <p class="post__author">Автор: Лиза Файнтух под редакцией Екатерины Бельтюковой</p>
+                            <p class="post__excerpt">Изначально термин «эмоциональное я...</p>
+                            <time class="post__date" datetime="2021-08-21">
+                                21.08.2021
+                            </time>
+                        </div>
+                    </article>
+
+                    <article class="post">
+                        <div class="post__image-container">
+                            <img src="images/Rectangle3.png" alt="Как не утонуть в тревоге" class="post__image">
+                            <div class="post__tag">
+                                <span class="post__tag-icon">🦄</span>
+                                <span class="post__tag-text">Self</span>
+                            </div>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="featured-post__title">
+                            <a href="post.html">Как не утонуть в тревоге
+                                <br>и управлять своими страхами</a>                                
+                            </h2>
+                            <p class="post__author">Автор: Екатерина Бельтюкова</p>
+                            <p class="post__excerpt">
+                                Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных
+                                ситуациях по-разному обходиться ...
+                            </p>
+                            <time class="post__date" datetime="2021-08-11">
+                                11.08.2021
+                            </time>
+                        </div>
+                    </article>
+
+                    <article class="post">
+                        <div class="post__image-container">
+                            <img src="images/Rectangle4.png" alt="Как управлять своими эмоциями" class="post__image">
+                            <div class="post__tag">
+                                <span class="post__tag-icon">🦄</span>
+                                <span class="post__tag-text">Self</span>
+                            </div>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                Как управлять своими эмоциями:
+                                <br>8 шагов
+                            </h2>
+                            <p class="post__author">Автор: Екатерина Бельтюкова</p>
+                            <p class="post__excerpt">
+                                Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!
+                            </p>
+                            <time class="post__date" datetime="2021-08-07">
+                                07.08.2021
+                            </time>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="posts posts--second-row">
+                    <article class="post">
+                        <div class="post__image-container">
+                            <img src="images/Rectangle5.png" alt="Эмоциональное выгорание" class="post__image">
+                            <div class="post__tag">
+                                <span class="post__tag-icon">🦄</span>
+                                <span class="post__tag-text">Самооценка и самопринятие</span>
+                            </div>
+                            <div class="post__tag post__tag--secondary">
+                                <span class="post__tag-icon">🦄</span>
+
+                            </div>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики
+                            </h2>
+                            <p class="post__author">Автор: Лиза Файнтух</p>
+                            <p class="post__excerpt">
+                                Изначально термин «эмоциональное профессиональной сфере и относился...
+                            </p>
+                            <time class="post__date" datetime="2021-08-21">
+                                21.08.2021
+                            </time>
+                        </div>
+                    </article>
+
+                    <article class="post">
+                        <div class="post__image-container">
+                            <img src="images/Image2.png" alt="Как не утонуть в тревоге" class="post__image">
+                            <div class="post__tag">
+                                <span class="post__tag-icon">🦄</span>
+                                <span class="post__tag-text">Self</span>
+                            </div>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                Как не утонуть в тревоге
+                                <br>и управлять своими страхами
+                            </h2>
+                            <p class="post__author">Автор: Екатерина Бельтюкова</p>
+                            <p class="post__excerpt">
+                                Один из самых важных навыков, которые может дать работа с психотерапевтом - умение в разных
+                                ситуациях по-разному обходиться ...
+                            </p>
+                            <time class="post__date" datetime="2021-08-11">
+                                11.08.2021
+                            </time>
+                        </div>
+                    </article>
+
+                    <article class="post">
+                        <div class="post__image-container">
+                            <img src="images/Image3.png" alt="Как управлять своими эмоциями" class="post__image">
+                            <div class="post__tag">
+                                <span class="post__tag-icon">🦄</span>
+                                <span class="post__tag-text">Self</span>
+                            </div>
+                        </div>
+                        <div class="post__content">
+                            <h2 class="post__title">
+                                Как управлять своими эмоциями:
+                                <br>8 шагов
+                            </h2>
+                            <p class="post__author">Автор: Екатерина Бельтюкова</p>
+                            <p class="post__excerpt">
+                                Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои негативные эмоции. Пришло время об этом написать!
+                            </p>
+                            <time class="post__date" datetime="2021-08-07">
+                                07.08.2021
+                            </time>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="load-more">
+                    <button class="load-more__button">
+                        Ещё
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__top">
+                <div class="footer__nav-container">
+                    <nav class="footer__nav">
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Тарифы
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Для бизнеса
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Психологам
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    FAQ
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Блог
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Вебинары
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Подскаст
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Сертификат
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__subscribe">
+                    <h3 class="footer__subscribe-title">
+                        Одно письмо в неделю со свежими
+                        <br>
+                        новостями и акциями
+                    </h3>
+                    <form class="footer__form">
+                        <div class="footer__input-wrapper">
+                            <input type="email" class="footer__input" placeholder="Ваш e-mail" aria-label="Ваш e-mail">
+                            <button type="submit" class="footer__submit" aria-label="Подписаться">
+                                <svg class="footer__submit-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14" />
+                                    <path d="m12 5 7 7-7 7" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                    <p class="footer__disclaimer">
+                        Подписываясь, я соглашаюсь на обработку персональных данных в соответствии с ФЗ РФ № 152-ФЗ «О
+                        персональных данных», а также с Политикой конфиденциальности
+                    </p>
+                </div>
+
+                <div class="footer__social">
+                    <div class="footer__social-icons">
+                        <a href="#" class="footer__social-link" aria-label="Вконтакте">
+                            <svg class="footer__social-icon" width="20" height="12" viewBox="0 0 20 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.8242 10.5576C19.7825 10.4819 19.4803 9.8307 17.8825 8.3598C16.2137 6.8232 16.4159 7.0487 18.4159 4.4232C19.6359 2.8232 20.1359 1.8598 19.9803 1.4487C19.8325 1.0576 18.9181 1.1598 18.9181 1.1598L15.9181 1.1776C15.9181 1.1776 15.7092 1.1487 15.5536 1.2421C15.4025 1.3354 15.3047 1.5487 15.3047 1.5487C15.3047 1.5487 14.8203 2.7776 14.1803 3.8232C12.8203 6.0232 12.2714 6.1421 12.0647 6.0065C11.5825 5.6954 11.7092 4.7376 11.7092 4.0598C11.7092 1.9354 12.0425 0.995374 11.0425 0.751208C10.7092 0.677652 10.4581 0.631208 9.63694 0.622874C8.58805 0.614541 7.70361 0.631208 7.20361 0.877652C6.87027 1.0421 6.61583 1.4065 6.76694 1.4287C6.95361 1.4554 7.37027 1.5465 7.60361 1.8554C7.90361 2.2554 7.89249 3.1643 7.89249 3.1643C7.89249 3.1643 8.07027 5.7176 7.47916 6.0232C7.07027 6.2332 6.50361 5.7776 5.28805 3.7954C4.67027 2.7732 4.19805 1.6421 4.19805 1.6421C4.19805 1.6421 4.11583 1.4354 3.96694 1.3243C3.78805 1.1932 3.53138 1.1487 3.53138 1.1487L0.675826 1.1665C0.675826 1.1665 0.264159 1.1798 0.117048 1.3532C-0.0140742 1.5087 0.106159 1.8287 0.106159 1.8287C0.106159 1.8287 2.27916 6.9732 4.71583 9.5687C6.96694 11.9598 9.49249 11.8021 9.49249 11.8021H10.6536C10.6536 11.8021 11.0025 11.7621 11.1803 11.5687C11.3447 11.3909 11.3381 11.0709 11.3381 11.0709C11.3381 11.0709 11.3158 9.4421 12.0647 9.2132C12.8025 8.9887 13.7381 10.7732 14.7269 11.4732C15.4803 12.0021 16.0536 11.8909 16.0536 11.8909L18.7381 11.8021C18.7381 11.8021 20.1536 11.7176 19.4914 10.5576H19.8242Z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Телеграм">
+                            <svg class="footer__social-icon" width="16" height="14" viewBox="0 0 16 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.1439 0.0711531L0.818929 5.71115C-0.247738 6.16782 -0.241071 6.80449 0.618929 7.08449L4.15226 8.19782L12.0323 2.72449C12.4856 2.43782 12.9023 2.59115 12.5656 2.90449L6.24559 8.62449H6.24393L6.24559 8.62532L5.99226 12.2587C6.41226 12.2587 6.59893 12.0653 6.83893 11.8353L8.55893 10.1687L12.1356 12.8253C12.9056 13.2453 13.4589 13.0287 13.6489 12.2595L15.9923 1.28449C16.2623 0.344487 15.5689 -0.166514 14.1439 0.0711531Z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="YouTube">
+                            <svg class="footer__social-icon" width="18" height="18" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.2984 4.45C17.0859 3.7 16.4984 3.1125 15.7484 2.9C14.3984 2.5 9.00001 2.5 9.00001 2.5C9.00001 2.5 3.60157 2.5 2.25157 2.9C1.50157 3.1125 0.914075 3.7 0.701575 4.45C0.301575 5.8 0.301575 8.6875 0.301575 8.6875C0.301575 8.6875 0.301575 11.575 0.701575 12.925C0.914075 13.675 1.50157 14.2625 2.25157 14.475C3.60157 14.875 9.00001 14.875 9.00001 14.875C9.00001 14.875 14.3984 14.875 15.7484 14.475C16.4984 14.2625 17.0859 13.675 17.2984 12.925C17.6984 11.575 17.6984 8.6875 17.6984 8.6875C17.6984 8.6875 17.6984 5.8 17.2984 4.45ZM7.30001 11.375V6L11.8 8.6875L7.30001 11.375Z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram">
+                            <svg class="footer__social-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 18.8C14.5 18.8 13.2 17.6 13.2 16C13.2 14.5 14.4 13.2 16 13.2C17.5 13.2 18.8 14.4 18.8 16C18.8 17.5 17.5 18.8 16 18.8Z" fill="currentColor" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4 9.2H12.6C11.8 9.3 11.4 9.4 11.1 9.5C10.7 9.6 10.4 9.8 10.1 10.1C9.86261 10.3374 9.75045 10.5748 9.61489 10.8617C9.57916 10.9373 9.5417 11.0166 9.5 11.1C9.48453 11.1464 9.46667 11.1952 9.44752 11.2475C9.34291 11.5333 9.2 11.9238 9.2 12.6V19.4C9.3 20.2 9.4 20.6 9.5 20.9C9.6 21.3 9.8 21.6 10.1 21.9C10.3374 22.1374 10.5748 22.2495 10.8617 22.3851C10.9374 22.4208 11.0166 22.4583 11.1 22.5C11.1464 22.5155 11.1952 22.5333 11.2475 22.5525C11.5333 22.6571 11.9238 22.8 12.6 22.8H19.4C20.2 22.7 20.6 22.6 20.9 22.5C21.3 22.4 21.6 22.2 21.9 21.9C22.1374 21.6626 22.2495 21.4252 22.3851 21.1383C22.4208 21.0627 22.4583 20.9834 22.5 20.9C22.5155 20.8536 22.5333 20.8048 22.5525 20.7525C22.6571 20.4667 22.8 20.0762 22.8 19.4V12.6C22.7 11.8 22.6 11.4 22.5 11.1C22.4 10.7 22.2 10.4 21.9 10.1C21.6626 9.86261 21.4252 9.75045 21.1383 9.61488C21.0627 9.57916 20.9834 9.5417 20.9 9.5C20.8536 9.48453 20.8048 9.46666 20.7525 9.44752C20.4667 9.34291 20.0762 9.2 19.4 9.2ZM16 11.7C13.6 11.7 11.7 13.6 11.7 16C11.7 18.4 13.6 20.3 16 20.3C18.4 20.3 20.3 18.4 20.3 16C20.3 13.6 18.4 11.7 16 11.7ZM21.4 11.6C21.4 12.1523 20.9523 12.6 20.4 12.6C19.8477 12.6 19.4 12.1523 19.4 11.6C19.4 11.0477 19.8477 10.6 20.4 10.6C20.9523 10.6 21.4 11.0477 21.4 11.6Z" fill="currentColor" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM12.6 7.7H19.4C20.3 7.8 20.9 7.9 21.4 8.1C22 8.4 22.4 8.6 22.9 9.1C23.4 9.6 23.7 10.1 23.9 10.6C24.1 11.2 24.3 11.7 24.3 12.6V19.4C24.2 20.3 24.1 20.9 23.9 21.4C23.6 22 23.4 22.4 22.9 22.9C22.4 23.4 21.9 23.7 21.4 23.9C20.8 24.1 20.3 24.3 19.4 24.3H12.6C11.7 24.2 11.1 24.1 10.6 23.9C10 23.6 9.6 23.4 9.1 22.9C8.6 22.4 8.3 21.9 8.1 21.4C7.9 20.8 7.7 20.3 7.7 19.4V12.6C7.8 11.7 7.9 11.1 8.1 10.6C8.4 10 8.6 9.6 9.1 9.1C9.6 8.6 10.1 8.3 10.6 8.1C11.1 7.9 11.7 7.7 12.6 7.7Z" fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__apps">
+                        <img src="images/Group.svg" alt="group image">
+                        <h3>Участник</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__divider"></div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">©Youtalk, 2018 – 2022</p>
+                <a href="#" class="footer__legal">
+                    Юридические документы
+                </a>
+                <a href="#" class="footer__legal">
+                    Способы оплаты
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
